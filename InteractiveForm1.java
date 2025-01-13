@@ -21,7 +21,7 @@ public class InteractiveForm1 extends Frame implements ActionListener {
         Label lastNameLabel = new Label("Last Name:");
         lastNameLabel.setAlignment(Label.RIGHT);
         lastNameField = new TextField(20);
-        Label dobLabel = new Label("Date of Birth (DOB):");
+        Label dobLabel = new Label("Date of Birth (MM/DD/YY):");
         dobLabel.setAlignment(Label.RIGHT);
         dobMonth = new Choice();
         for (int i = 1; i <= 12; i++) {
